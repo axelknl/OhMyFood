@@ -1,0 +1,99 @@
+.rest {
+    padding: 50px 20px 20px 20px;
+    background-color: #f6f6f6;
+}
+
+.rest_list {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rest_item {
+    margin-bottom: 35px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.10);
+}
+
+.rest_item .new {
+    padding: 7px 10px;
+    margin-top: 13px;
+    margin-right: 12px;
+    border-radius: 3px;
+    float: right;
+    color: #008766;
+    font-weight: 500;
+    background-color: var(--tcolor);
+}
+
+.rest_item .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rest_item .desc {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.rest_item i {
+    float: right;
+    margin-top: 23px;
+    margin-right: 27px;
+}
+
+
+.rest_item .img_rest{
+    height: 175px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: gainsboro;
+}
+
+.rest_item .img_rest_1{
+    background: center url("../../assets/Palette.jpg");
+    background-size: cover;
+}
+
+.rest_item .img_rest_2{
+    background: center url("../../assets/Note.jpg");
+    background-size: cover;
+}
+
+.rest_item .img_rest_3{
+    background: center url("../../assets/Francaise.jpg");
+    background-size: cover;
+}
+
+.rest_item .img_rest_4{
+    background: center url("../../assets/Délice.jpg");
+    background-size: cover;
+}
+
+.rest_item .heart {
+    margin-top: 20px;
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/heart.svg);
+    background-size: 100%;
+}
+
+.heart:hover {
+    transition-duration: 1s;
+    background-image: url(../../assets/heartc.png);
+}
+
+@media screen and (min-width: 769px) {
+    .rest {
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-radius: 30px;
+        max-width: 769px;
+        margin-bottom: 50px;
+    }
+}

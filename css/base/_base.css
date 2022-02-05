@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --mcolor: #9356DC;
+    --scolor: #FF79DA;
+    --tcolor: #99E2D0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cb {
+    clear: both;
+}
